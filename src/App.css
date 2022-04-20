@@ -4,7 +4,7 @@
     --secondary-color: rgb(219, 204, 163);
     --text-color: rgb(59, 49, 40);
     --secondary-text-color: rgb(110, 97, 81);
-    --shadow: 0px 1px 2px rgba(170, 170, 170, .4);
+    --shadow: 0px 1px 2px rgba(72, 185, 37, 0.808);
     --font-family: 'Inter', sans-serif;
 }
 
@@ -145,7 +145,7 @@ h1, h2, h3 {
 }
 
 #actions button:hover {
-    background-color: rgba(219, 204, 163, .3);
+    background-color: rgba(240, 179, 13, 0.89);
     color: var(--text-color);
 }
 
@@ -195,7 +195,7 @@ label {
   display: block;
 }
 #login {
-  background-color: white;
+  background-color: rgb(165, 164, 164);
   max-width: 500px;
   width: 100%;
   padding: 2rem;
@@ -228,7 +228,7 @@ label {
 
 .btn, .btn2 {
   background-color: var(--secondary-text-color);
-  color: white;
+  color: rgb(168, 168, 168);
   padding: .7rem;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -249,7 +249,7 @@ label {
 
 .btn:hover, .btn2:hover {
   background-color: var(--text-color);
-  color: white;
+  color: rgba(172, 171, 171, 0.719);
 }
 
 .notif {
@@ -262,7 +262,7 @@ label {
 
 .danger {
   color: red;
-  background-color: rgba(255, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .success {
@@ -320,7 +320,7 @@ input:disabled {
 }
 .modal {
   animation: fadein .3s;
-  background-color: white;
+  background-color: rgb(131, 131, 131);
   padding: 2rem;
   border-radius: .5rem;
   box-shadow: var(--shadow);
@@ -341,7 +341,7 @@ input:disabled {
 }
 
 .btn-muted {
-  background-color: rgba(219, 204, 163, .3);
+  background-color: rgba(236, 221, 12, 0.795);
   color: var(--secondary-text-color);
 }
 
@@ -368,7 +368,7 @@ input:disabled {
 }
 
 .even {
-  background-color: rgba(238, 238, 238, .5);
+  background-color: rgba(84, 236, 13, 0.74);
 }
 
 .budget-title {
@@ -383,7 +383,7 @@ input:disabled {
 .mr {
   margin-right: .7rem;
   font-size: 1.3rem;
-  background-color: rgba(219, 204, 163, .4);
+  background-color: rgba(67, 235, 25, 0.781);
   color: var(--text-color);
   border: none;
   padding: .1rem .3rem;
@@ -393,7 +393,7 @@ input:disabled {
 }
 
 .mr:hover {
-  background-color: rgba(255, 0, 0, .2);
+  background-color: rgba(119, 230, 16, 0.2);
   color: red;
   cursor: pointer;
 }
