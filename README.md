@@ -11,4 +11,4 @@ email: client@client.com
 password: abc123
 ```
 
-[Live demo of Banking App](https://jeffdelara.github.io/banking-app/)
+
