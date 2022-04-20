@@ -2,8 +2,8 @@
 :root {
     --first-color: rgb(246, 244, 237);
     --secondary-color: rgb(219, 204, 163);
-    --text-color: rgb(59, 49, 40);
-    --secondary-text-color: rgb(110, 97, 81);
+    --text-color: rgb(75, 206, 23);
+    --secondary-text-color: rgb(78, 197, 23);
 }
 
 * {
@@ -91,7 +91,7 @@ main {
 }
 
 #actions button:hover {
-    background-color: rgba(219, 204, 163, .3);
+    background-color: rgb(238, 177, 11);
     color: var(--text-color);
 }
 
